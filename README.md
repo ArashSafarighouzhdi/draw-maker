@@ -21,6 +21,22 @@ The user can:
 
 ---
 
+## 🖥️ Screenshots
+
+### 🏠 Empty State
+
+![Draw Maker - Empty State](./public/screenshots/DrawMaker.jpg)
+
+### 🎲 Generated Draw
+
+![Draw Maker - Generated Draw](./public/screenshots/Draw.jpg)
+
+### ✏️ Edit Player
+
+![Draw Maker - Edit Player](./public/screenshots/Edit.jpg)
+
+---
+
 ## ✨ Features
 
 ### 👤 Add Players
