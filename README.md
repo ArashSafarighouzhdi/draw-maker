@@ -114,6 +114,7 @@ The application is divided into small components, each with a specific responsib
 | 🎲 `DrawMaker`   | Creates the tournament draw                 |
 | 🏆 `Draw`        | Displays the generated draw                 |
 | 🔄 `NewDraw`     | Starts a new draw                           |
+| 🦶 `Footer`      | Displays the application footer             |
 
 ---
 
@@ -209,15 +210,15 @@ These tests focus on user actions and the visible changes that happen in the app
 
 All tests are currently passing.
 
-    Test Suites: 7 passed, 7 total
-    Tests:       24 passed, 24 total
+    Test Suites: 8 passed, 8 total
+    Tests:       26 passed, 26 total
 
 ### Test Breakdown
 
-    Unit Tests         21
+    Unit Tests         23
     Integration Tests   3
     ----------------------
-    Total              24
+    Total              26
 
 ---
 
@@ -233,6 +234,7 @@ All tests are located inside the `__test__` directory.
     ├── Draw.test.tsx
     ├── DrawMaker.test.tsx
     ├── NewDraw.test.tsx
+    ├── Footer.test.tsx
     └── Page.test.tsx
 
 ---
@@ -278,10 +280,17 @@ The tests focus on observable behaviour from the user's point of view.
     │   ├── PlayerList/
     │   ├── DrawMaker/
     │   ├── Draw/
-    │   └── NewDraw/
+    │   ├── NewDraw/
+    │   └── Footer/
     │
     ├── page.tsx
     └── types.ts
+
+    public/
+    └── screenshots/
+        ├── DrawMaker.jpg
+        ├── Draw.jpg
+        └── Edit.jpg
 
     __test__/
     ├── Header.test.tsx
@@ -290,6 +299,7 @@ The tests focus on observable behaviour from the user's point of view.
     ├── Draw.test.tsx
     ├── DrawMaker.test.tsx
     ├── NewDraw.test.tsx
+    ├── Footer.test.tsx
     └── Page.test.tsx
 
 ---
