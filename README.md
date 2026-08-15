@@ -308,4 +308,4 @@ A simple and focused tournament draw application for players and teams.
 
 The application keeps the draw process simple while providing a clear structure for managing players and testing the main user interactions.
 
-⭐ 24 tests passing — 7 test suites passing
+⭐ 26 tests passing — 7 test suites passing
