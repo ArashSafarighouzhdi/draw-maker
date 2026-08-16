@@ -12,7 +12,8 @@ const Draw = ({ players }: DrawProps) => {
 
   const shuffledPlayers = [...players];
 
-  // Shuffle players
+
+
   for (let i = shuffledPlayers.length - 1; i > 0; i--) {
     const randomIndex = Math.floor(Math.random() * (i + 1));
 
@@ -27,7 +28,9 @@ const Draw = ({ players }: DrawProps) => {
     player2: null as (typeof players)[number] | null,
   }));
 
-  // Choose different matches for BYEs
+
+
+  
   const byeMatches = new Set<number>();
 
   while (byeMatches.size < byeCount && byeMatches.size < matchCount) {

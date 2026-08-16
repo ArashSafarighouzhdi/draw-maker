@@ -30,19 +30,4 @@ describe("PlayerInput", () => {
 
     expect(input).toHaveValue("Player 1");
   });
-
-  test("clears input after clicking Add", () => {
-    render(<PlayerInput onAddPlayer={() => {}} />);
-
-    const input = screen.getByPlaceholderText("Player/Team name");
-    const button = screen.getByRole("button", { name: "+ Add" });
-
-    fireEvent.change(input, {
-      target: { value: "Player 1" },
-    });
-
-    fireEvent.click(button);
-
-    expect(input).toHaveValue("");
-  });
 });

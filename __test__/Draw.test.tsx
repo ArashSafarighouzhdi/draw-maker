@@ -27,6 +27,9 @@ describe("Draw", () => {
 
     expect(screen.getByText("Player 1")).toBeInTheDocument();
     expect(screen.getByText("Player 2")).toBeInTheDocument();
+    expect(screen.getByText("Player 3")).toBeInTheDocument();
+    expect(screen.getByText("Player 4")).toBeInTheDocument();
+    expect(screen.getByText("Player 5")).toBeInTheDocument();
   });
 
   test("shows BYE", () => {
@@ -40,6 +43,6 @@ describe("Draw", () => {
   test("does not render a player name that was not provided", () => {
     render(<Draw players={players} />);
 
-    expect(screen.queryByText("Player 10")).not.toBeInTheDocument();
+    expect(screen.queryByText("Player 6")).not.toBeInTheDocument();
   });
 });

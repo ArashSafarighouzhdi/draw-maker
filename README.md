@@ -213,14 +213,14 @@ These tests focus on user actions and the visible changes that happen in the app
 All tests are currently passing.
 
     Test Suites: 8 passed, 8 total
-    Tests:       26 passed, 26 total
+    Tests:       24 passed, 24 total
 
 ### Test Breakdown
 
-    Unit Tests         23
+    Unit Tests         21
     Integration Tests   3
     ----------------------
-    Total              26
+    Total              24
 
 ---
 
@@ -335,13 +335,3 @@ Open the application in your browser and start adding players.
     New Draw
          ↓
     Start Again
-
----
-
-## 👨‍💻 Draw Maker
-
-A simple and focused tournament draw application for players and teams.
-
-The application keeps the draw process simple while providing a clear structure for managing players and testing the main user interactions.
-
-⭐ 26 tests passing — 8 test suites passing
