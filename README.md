@@ -335,3 +335,10 @@ Open the application in your browser and start adding players.
     New Draw
          ↓
     Start Again
+
+---
+
+## 👤 Author
+
+**Arash Safari**  
+Frontend Developer · React · TypeScript · JavaScript
