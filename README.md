@@ -29,6 +29,14 @@ Try the live version of Draw Maker:
 
 ---
 
+## 🎥 Project Presentation
+
+A short video presentation showing the application, main functionality, and tests.
+
+[▶️ Watch the Project Presentation on YouTube](https://youtu.be/WLty9XtjQ1I)
+
+---
+
 ## 🖥️ Screenshots
 
 ### 🏠 Empty State
